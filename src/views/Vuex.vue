@@ -3,7 +3,7 @@
     <Row style="font-size: 16px;">
       <span>Changes to this page are persistent. Try modifying the items below, refreshing the page, and watching the state changes in Vue DevTool's Vuex tab.</span>
     </Row>
-    <Row style="display: flex; align-items: baseline; position: relative;">
+    <Row style="display: flex; align-items: baseline;">
       <Toggle 
         :state="sizeLock" 
         @update="val => sizeLock = val" 
@@ -134,14 +134,5 @@ export default {
   flex-wrap: nowrap;
   width: 100%;
   justify-content: space-around;
-}
-
-.isolated-icon {
-  position: absolute;
-  left: 200px;
-  top: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 </style>
