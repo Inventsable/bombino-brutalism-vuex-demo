@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+    <Extension Id="com.brutalism-vuex-demo.panel">
+        <HostList>
+            <Host Name="ILST" Port="3320" />
+            <Host Name="AEFT" Port="3321" />
+            <Host Name="PHXS" Port="3322" />
+            <Host Name="PPRO" Port="3323" />
+            <Host Name="IDSN" Port="3324" />
+            <Host Name="AUDT" Port="3325" />
+            <Host Name="FLPR" Port="3326" />
+        </HostList>
+    </Extension>
+</ExtensionList>
