@@ -45,7 +45,7 @@
       using the invert prop and place our Tabs above the Panel, meaning the Tabs appear at the top.
       The routes Array corresponds to the one in ./src/routes.js.
      -->
-    <Tabs :routes="routes" />
+    <Tabs :routes="routes" emit-to-parent />
 
     <!-- 
       Panel is a special wrapper meant for Adobe hosts to handle style, script loading, scrollbars and more.
